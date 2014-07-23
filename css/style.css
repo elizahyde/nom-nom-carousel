@@ -60,7 +60,7 @@ body {
 
 header {
      background: #000;
-     height: 80px; 
+     height: 50px; 
      color:#ccc;
      font-size:17px; 
 }
@@ -79,9 +79,9 @@ nav ul li {
 
      nav ul li a {
           display:block;
-          height: 49px;
+          height: 20px;
           color:#ccc;
-          padding: 30px 18px 0 18px;
+          padding: 15px 18px 0 18px;
           text-decoration: none;
      }
 
@@ -113,9 +113,10 @@ nav ul li {
 }
 #image-to-vote-on,#buttons-wrapper{
      margin: 0 auto;
-     width: 500px;
+     width: auto;
      text-align: center;
      display: block;
+     height: 425px;
 }
 #image-to-vote-on{
      margin-top: 50px;

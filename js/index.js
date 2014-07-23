@@ -9,27 +9,16 @@ $(document).ready(function(){
 
 	var f2 = f1[0];
 
-	// Get length of foodArray
+	// Get length of f1
 
 	var f3 = f1.length
 
-	// Store last element
-
-	var f4 = f1[f1.length-1];
-
-
-
-
-
-
-
-
-	// Skip button moves image to next image in array1
 	// Create variable to store index
 		var fIndex = 0;
-
+	// Skip button moves image to next image in array1
 		$('#skip').on('click', function() {
 			fIndex++;
+			// If else statement so it loops around
 			if (fIndex > f3) { fIndex = 0; } else {
 			$('#image-to-vote-on').attr('src', f1[fIndex]); }
 		});
@@ -38,14 +27,16 @@ $(document).ready(function(){
 
 			$('#back').on('click', function() {
 			fIndex--;
-			$('#image-to-vote-on').attr('src', f1[fIndex]);
+			// If else statement so it loops around
+			if (fIndex > f3) { fIndex = 0; } else {
+			$('#image-to-vote-on').attr('src', f1[fIndex]); }
 		});
 
 	// Create 2nd array. Selector puts number in second array.
 
-		// var r1 = 0;
+		var r1 = 0;
 
-	// Once you hit 6 ratings , it sums then averages (sum/length of array2) and displays
+	// Once you hit 6 ratings (wtf is this number??) , it sums then averages (sum/length of array2) and displays
 	// the average above the buttons. If you rate again it updates average
 
 
