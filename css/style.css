@@ -1,8 +1,8 @@
 /* 
-Project Name: Blank Template
+Project Name: Nom Nom Carousel
 Client: Your Client
 Author: Your Name
-Developer @GA in NYC
+Developer Elizabeth Ramberg
 */
 
 
@@ -44,7 +44,7 @@ body {
      color: #000;
      font-size: 12px;
      line-height: 1.4;
-     font-family: Helvetica, Arial, sans-serif;
+     font-family: Verdana, Arial, sans-serif;
 }
 
 
@@ -59,10 +59,10 @@ body {
 }
 
 header {
-     background: #000;
+     background: #7FB796;
      height: 50px; 
-     color:#ccc;
-     font-size:17px; 
+     color:#FFA07A;
+     font-size:15px; 
 }
 
 footer {
@@ -80,8 +80,8 @@ nav ul li {
      nav ul li a {
           display:block;
           height: 20px;
-          color:#ccc;
-          padding: 15px 18px 0 18px;
+          color:#FFA07A;
+          padding: 15px 18px 15px 18px;
           text-decoration: none;
      }
 
@@ -92,7 +92,7 @@ nav ul li {
 
 .btn{
      color: #ffffff;
-     background-color: #428bca;
+     background-color: #7FB796;
      border-color: #357ebd;
      padding: 6px 12px;
      margin-bottom: 0;
