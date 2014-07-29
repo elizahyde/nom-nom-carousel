@@ -80,13 +80,13 @@ nav ul li {
      nav ul li a {
           display:block;
           height: 20px;
-          color:#FFA07A;
+          color:#ffffff;
           padding: 15px 18px 15px 18px;
           text-decoration: none;
      }
 
      nav ul li a:hover {
-          background:url(../images/bg_nav_rollover.png) repeat-x;
+          background-color:#FFA07A;
           color:#FFF;
      }
 
